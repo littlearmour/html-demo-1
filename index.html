@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML起手式</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 400;
+      }
+      ul,
+      ol {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      button,
+      input,
+      select,
+      textarea {
+        font: inherit;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      .middle {
+        /* background: #ccc; */
+        color: #000;
+      }
+      input {
+        border: 0;
+      }
+      .bordered {
+        border: 1px solid red;
+      }
+      #xxx {
+        border: 5px solid yellow;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      h1 {
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 36px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <style contenteditable>
+      style {
+        display: block;
+        border: 1px solid;
+      }
+      .middle {
+        background: #000;
+        color: #fff;
+      }
+      .bordered {
+        border: 1px solid red;
+      }
+    </style> -->
+    <!-- <header id="xxx" style="border: 5px solid green;" title="完整的内容">
+      顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告顶部广告
+    </header> -->
+    <div class="middle bordered">
+      <!-- contenteditable可编辑元素内容 -->
+      <main>
+        作者：xxx
+        <hr />
+        <h1>文章标题</h1>
+        <section>
+          <h2>第一章</h2>
+          <p>段落</p>
+        </section>
+        <section>
+          <h3>1.1节</h3>
+          <p>一段话</p>
+        </section>
+        <section>
+          <h3>1.2节</h3>
+          <p>今天下午<em>两点</em>开会</p>
+          <p>1234<strong>568</strong>99</p>
+          <p>
+            1111<blockquote> 三上：马上 ；枕上；厕上</blockquote>
+          </p>
+          <pre>
+            <code>
+              var a = 1
+              console.log(a)
+            </code>
+          </pre>
+          <table border="1">
+            <caption>
+              表格
+            </caption>
+            <tr>
+              <td>111</td>
+              <td>111</td>
+              <td>111</td>
+            </tr>
+            <tr>
+              <td>222</td>
+              <td>222</td>
+              <td>222</td>
+            </tr>
+            <tr>
+              <td>333</td>
+              <td>333</td>
+              <td>333</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+      <aside>
+        <a href="#" target="_blank">参考资料</a>
+      </aside>
+    </div>
+    <footer>&copy;版权所有</footer>
+  </body>
+</html>
